@@ -119,7 +119,7 @@ func CreateUserEndpoint(response http.ResponseWriter, request *http.Request) {
 	json.NewEncoder(response).Encode(result)
 }
 
-// Query all users
+// Query (min, max )
 func GetRandomEndpoint(response http.ResponseWriter, request *http.Request) {
 
 	// Header
